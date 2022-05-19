@@ -1,0 +1,27 @@
+.navbkgcolor {
+    background-color: #F7A39B;
+}
+
+.cardsize {
+    width: 275px;
+    height: 250px;
+}
+
+body{
+    background-image: url(../img/sidepanel.jpg);
+    background-repeat: repeat-y;
+}
+.errorText{
+    color: red;
+}
+.completedItems{
+    background-image: url(../img/check.jpg);
+    background-size: cover;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-image: none;
+    }
+}
+
